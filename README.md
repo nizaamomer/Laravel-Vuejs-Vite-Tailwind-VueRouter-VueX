@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="200" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo"></a></p>
 <h2>Installation & Configuration: </h2>
 Laravel, Vite, Vuejs, TailwindCss, VueX, VueRouter, Axios
 
@@ -69,7 +69,7 @@ export default defineConfig({
 </html>
 
 ```
-<h3>5: Change `tailwind.config.js` to this: </h3>
+<h3>6: Change `tailwind.config.js` to this: </h3>
 
 ```
 export default {
@@ -84,21 +84,21 @@ export default {
 }
 
 ```
-<h3>6: Add codes to `resources/css/app.css`  </h3>
+<h3>7: Add codes to `resources/css/app.css`  </h3>
 
 ```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
-<h3>7: Add codes to `routes/web.php` in the top  </h3>
+<h3>8: Add codes to `routes/web.php` in the top  </h3>
 
 ```
 Route::view('/{any?}' , 'welcome')->where('any', '.*');
 ```
 
-<h3>8: now Copy my `js` folder in `resources` and replace your js folder  </h3>
-<h3>8: Now run your project </h3>
+<h3>9: now Copy my `js` folder in `resources` and replace your js folder  </h3>
+<h3>10: Now run your project </h3>
 
 ```
 php artisan serve
