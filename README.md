@@ -2,19 +2,23 @@
 <h1>Installation & Configuration: <br> Laravel, Vite, Vuejs, TailwindCss, VueX, VueRouter, Axios</h1>
 
 <h3>1: Setup new Laravel App</h3>
+
 ```
 composer create-project laravel/laravel LaravelviteVuejs
 ```
 
 <h3>2: Go to Project </h3>
+
 ```
 cd LaravelviteVuejs
 ```
 <h3>3: Installing Dependencies </h3>
+
 ```
 npm i && npm i vue vue-router@4 vuex axios @vitejs/plugin-vue -D tailwindcss postcss autoprefixer && npx tailwindcss init -p
 ```
 <h3>4: Change `vite:config.js` to this: </h3>
+
 ```
 import { defineConfig } from "vite";
 import laravel from "laravel-vite-plugin";
@@ -40,6 +44,7 @@ export default defineConfig({
 ```
 
 <h3>5: Change `welcome.blade.php` to this:</h3>
+
 ```
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -64,6 +69,7 @@ export default defineConfig({
 
 ```
 <h3>5: Change `tailwind.config.js` to this: </h3>
+
 ```
 export default {
   content: [
@@ -78,18 +84,21 @@ export default {
 
 ```
 <h3>6: Add codes to `resources/css/app.css`  </h3>
+
 ```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
 <h3>7: Add codes to `routes/web.php` in the top  </h3>
+
 ```
 Route::view('/{any?}' , 'welcome')->where('any', '.*');
 ```
 
 <h3>8: now Copy my `js` folder in `resources` and replace your js folder  </h3>
 <h3>8: Now run your project </h3>
+
 ```
 php artisan serve
 ```
