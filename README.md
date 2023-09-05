@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="200" alt="Laravel Logo"></a></p>
 <h2>Installation & Configuration: </h2>
 Laravel, Vite, Vuejs, TailwindCss, VueX, VueRouter, Axios
 
@@ -106,3 +106,12 @@ php artisan serve
 ```
 npm run dev
 ```
+
+<br>
+
+Thank you for exploring this project! We hope these instructions were helpful in setting up your Laravel application with Vite, Vue.js, Tailwind CSS, Vuex, VueRouter, and Axios. If you encounter any issues or have suggestions for improvements, please don't hesitate to reach out.
+
+Inshallah, this project will serve as a foundation for your web development journey. Happy coding!
+
+
+
